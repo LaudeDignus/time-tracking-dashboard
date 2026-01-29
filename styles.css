@@ -52,6 +52,7 @@
 body {
   font-family: var(--ff-rubik);
   min-width: 250px;
+  background-color: var(--clr-navy-950);
 }
 
 .main {
@@ -231,6 +232,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--clr-white);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
