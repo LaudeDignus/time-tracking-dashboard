@@ -77,4 +77,4 @@ document.addEventListener('click', (e) => {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/LaudeDignus)
+- Frontend Mentor - [LaudeDignus](https://www.frontendmentor.io/profile/LaudeDignus)
