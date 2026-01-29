@@ -259,7 +259,7 @@ body {
   .main {
     grid-template-columns: 255px 1fr;
     place-items: flex-start;
-    margin: 3rem 1rem 3rem 14rem;
+    margin: 3rem 1rem 3rem 12rem;
   }
   .profil {
     width: 100%;
