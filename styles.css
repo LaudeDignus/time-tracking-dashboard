@@ -39,9 +39,9 @@
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  margin: -0.0625rem;
   border: 0;
   overflow: hidden;
   clip-path: inset(50%);
@@ -63,7 +63,7 @@ body {
 }
 
 .main > * {
-  width: clamp(250px, calc(100% + -1rem), 450px);
+  width: clamp(15.625rem, calc(100% + -1rem), 28.125rem);
 }
 
 .profil {
@@ -71,7 +71,7 @@ body {
   flex-direction: column;
   gap: var(--gap-24);
   background: var(--clr-navy-900);
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 
 .profil__user {
@@ -81,14 +81,14 @@ body {
   padding: 2rem;
   gap: var(--gap-24);
   background: var(--clr-purple-600);
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 
 .user__avatar > img {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   object-fit: cover;
-  border: 2px solid var(--clr-white);
+  border: 0.125rem solid var(--clr-white);
   border-radius: 50%;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .trackings__card {
   position: relative;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 
 .card__bg {
@@ -145,7 +145,7 @@ body {
   background-image: var(--card-icon);
   background-repeat: no-repeat;
   background-position: var(--card-position);
-  border-radius: 15px 15px 0 0;
+  border-radius: 0.9375rem 0.9375rem 0 0;
   background-size: 5rem;
 }
 
@@ -190,7 +190,7 @@ body {
   flex-direction: column;
   background: var(--clr-navy-900);
   padding: 1.5rem;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   margin-top: -0.9rem;
   color: var(--clr-white);
   gap: var(--gap-16);
@@ -230,7 +230,7 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
   color: var(--clr-white);
 }
@@ -238,12 +238,12 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .main > * {
-    width: clamp(450px, calc(100% + -8rem), 820px);
+    width: clamp(28.125rem, calc(100% + -8rem), 51.25rem);
   }
   .trackings {
-    grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(11.75rem, 1fr));
   }
   .content__period {
     flex-direction: column;
@@ -255,9 +255,9 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 75rem) {
   .main {
-    grid-template-columns: 255px 1fr;
+    grid-template-columns: 15.9375rem 1fr;
     place-items: flex-start;
     margin: 3rem 1rem 3rem 12rem;
   }
