@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive time tracking dashboard showcasing daily, weekly, and monthly activity statistics for work, play, study, and more. Switch between time periods with interactive hover effects."
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Time tracking dashboard" />
+    <meta
+      property="og:description"
+      content="A responsive time tracking dashboard showcasing daily, weekly, and monthly activity statistics for work, play, study, and more. Switch between time periods with interactive hover effects."
+    />
+    <meta
+      property="og:url"
+      content="https://miwodi-time-tracking-dashboard.netlify.app"
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dz209s6jk/image/upload/v1631270212/Challenges/va9khukabo1wlmpzsbgi.jpg"
+    />
+
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="visually-hidden">Time Tracking Dashboard</h1>
+      <section class="profil">
+        <div class="profil__user user">
+          <div class="user__avatar">
+            <img
+              src="./images/image-jeremy.png"
+              alt="Portrait of Jeremy Robson"
+              loading="lazy"
+            />
+          </div>
+          <div class="user__report report">
+            <p class="report__text">Report for</p>
+            <p class="report__name">Jeremy Robson</p>
+          </div>
+        </div>
+        <nav aria-label="Time period selection">
+          <ul class="periods">
+            <li class="periods__day">
+              <button
+                data-period="daily"
+                aria-pressed="false"
+                class="btn-tracking"
+              >
+                Daily
+              </button>
+            </li>
+            <li class="periods__week">
+              <button
+                data-period="weekly"
+                aria-pressed="true"
+                class="btn-tracking"
+              >
+                Weekly
+              </button>
+            </li>
+            <li class="periods__month">
+              <button
+                data-period="monthly"
+                aria-pressed="false"
+                class="btn-tracking"
+              >
+                Monthly
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="trackings">
+        <!-- Trackings cards injected dynamically via JavaScript -->
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/LaudeDignus">LaudeDignus</a>.
+    </footer>
+  </body>
+</html>
