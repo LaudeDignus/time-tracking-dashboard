@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://miwodi-time-tracking-dashboard.netlify.app)
+- Live Site URL: [Time tracking dashboard](https://miwodi-time-tracking-dashboard.netlify.app)
 
 ## My process
 
